@@ -65,7 +65,7 @@ function ProjectCard(props: IProps) {
           margin={"8px 0"}
           fontSize={"10px"}
         >
-          {card.tags.map((tag,i) => {
+          {card.tags.map((tag) => {
             const temp = Math.ceil(Math.random() * 21);
             return (
               <Text

@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Text } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 import ProjectCard from "./ProjectCard";
 import { projectsData } from "../helpers/staticData";
 import { useState } from "react";

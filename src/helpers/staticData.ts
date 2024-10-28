@@ -12,16 +12,6 @@ import fiber from "../assets/fiber-reconciler.jpeg";
 import uploadDapp from "../assets/uploadDapp.jpeg";
 import blobFns from "../assets/blob-fns.png";
 import treeshaking from "../assets/treeshaking.png";
-import { FaHtml5 } from "react-icons/fa6";
-import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5"
-import { BiLogoTypescript } from "react-icons/bi";
-import { FaReact } from "react-icons/fa6";
-import { RiNextjsFill } from "react-icons/ri";
-import { FaNodeJs } from "react-icons/fa6";
-import { PiFileSqlFill } from "react-icons/pi";
-import { SiMongodb } from "react-icons/si";
-import { FaGitSquare } from "react-icons/fa";
 
 export const workExpData = [
   {
@@ -178,55 +168,42 @@ export const blogsData = [
 
 export const techStack = [
   {
-    icon: FaHtml5,
     title: "Html",
   },
   {
-    icon: FaCss3Alt,
     title: "CSS",
   },
   {
-    icon: IoLogoJavascript,
     title: "Javascript",
   },
   {
-    icon: BiLogoTypescript,
     title: "Typescript",
   },
   {
-    icon: FaReact,
     title: "React Js",
   },
   {
-    icon: RiNextjsFill,
     title: "Next Js",
   },
   {
-    icon: FaNodeJs,
     title: "Node Js",
   },
   {
-    icon: "Express",
     title: "Express Js",
   },
   {
-    icon: PiFileSqlFill,
     title: "Sql",
   },
   {
-    icon: SiMongodb,
     title: "MongoDB",
   },
   {
-    icon: FaGitSquare,
     title: "Git",
   },
   {
-    icon: "Jest",
     title: "Jest",
   },
   {
-    icon: "Mocha",
     title: "Mocha",
   },
 ];

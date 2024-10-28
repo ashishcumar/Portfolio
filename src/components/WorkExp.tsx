@@ -27,7 +27,7 @@ function WorkExp() {
                   },
                 }}
               >
-                <Flex gap="24px" alignItems={"center"}>
+                <Flex gap={{base:"8px",sm:"24px"}} alignItems={"center"}>
                   <Image src={item.logo} width={"48px"} objectFit={"contain"} />
                   <Box>
                     <Text fontSize={"14px"} color={"primary"} fontWeight={'600'}>
@@ -40,12 +40,13 @@ function WorkExp() {
                     </Text>
                   </Box>
                 </Flex>
-                <Flex gap="12px" alignItems={"center"}>
-                  <Text color={"secondary"}> {item.durationFrom} - </Text>
+                <Flex gap={{base:"4px",sm:"12px"}} alignItems={"center"}>
+                  <Text color={"secondary"} fontSize={{base:'12px',md:'14px'}} sx={{textWrap:"balance"}}> {item.durationFrom} - </Text>
                   <Text
                     color={
                       item.durationTo === "Present" ? "black" : "secondary"
                     }
+                    fontSize={{base:'12px',md:'14px'}}
                   >
                     {item.durationTo}
                   </Text>

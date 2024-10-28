@@ -6,7 +6,6 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { theme } from "./helpers/theme.ts";
 
 const customTheme = extendTheme(theme)
-console.log({customTheme})
 createRoot(document.getElementById("root")!).render(
   <ChakraProvider theme={customTheme}>
     <StrictMode>
